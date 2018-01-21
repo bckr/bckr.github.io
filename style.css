@@ -1,0 +1,118 @@
+body {
+  font-family: Georgia;
+  font-size: 15pt;
+  line-height: 1.5;
+  max-width: 650px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  color: #000;
+}
+
+.header-main {
+  font-size: 15pt;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 1.0em 0 0.5em 0;
+  border-bottom: 1px #eee solid;
+}
+
+article {
+  margin-bottom: 50px;
+}
+
+.header-article h1 {
+  font-size: 27pt;
+}
+
+nav {
+  color: #e25c4c;
+}
+
+nav > a {
+  margin-left: 20px;
+}
+
+main {
+  color: black;
+}
+
+article img {
+  margin: 30px auto;
+  width: 90%;
+  display: block;
+}
+
+blockquote {
+  /*display: block;*/
+  padding-left: 20px;
+  margin-left: 30px;
+  border-left: 2px #eee solid;
+}
+
+article > footer {
+  /*color: #e25c4c;*/
+}
+
+body > footer {
+  font-size: 10pt;
+  border-top: 1px #eee solid;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 0.5em 0 1em 0;
+  text-align: center;
+  color: #aaa;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: dotted 1px #e25c4c;
+  color: #000;
+}
+
+header a {
+  text-decoration: none;
+  border-bottom: 0px;
+  color: #e25c4c;
+}
+
+.right {
+  float: right !important;
+}
+
+.left {
+  float: left !important;
+}
+
+.red {
+  color: #e25c4c;
+}
+
+.published-on {
+ color: #aaa;
+}
+
+a.more {
+  text-decoration: none;
+  border-bottom: dotted 1px #e25c4c;
+  color: #000;
+}
+
+pre {
+  font-family: Menlo, Courier;
+  font-size: 12pt;
+  padding: 20px 0;
+  border: 2px #eee solid;
+}
+
+figcaption {
+  font-size: 12pt;
+  text-align: center;
+  color: #777;
+  padding-top: 10px;
+}
+
+ul.projects-listing > li {
+  margin-top: 15px;
+}
+
